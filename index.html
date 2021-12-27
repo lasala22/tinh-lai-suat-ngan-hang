@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let tienvay = Number(prompt("nhập vào số tiền vay"));
+        let laisuat = Number(prompt("nhập vào lãi suất một năm"));
+        let nam = Number(prompt("nhập vào số năm"));
+        let n = tienvay + nam*(tienvay * laisuat / 100);
+        document.write("Số tiền cả gốc lẫn lãi sau " + nam + "  năm là " + n); 
+    </script>
+</body>
+</html>
